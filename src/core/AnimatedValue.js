@@ -17,6 +17,18 @@ export default class AnimatedValue extends AnimatedNode {
     super.__detach();
   }
 
+  __detachAnimation(animation) {
+    animation && animation.__detach();
+    if (this._animation === animation) {
+      this._animation = null;
+    }
+  }
+
+  __attachAnimation(animation) {
+    this.__detachAnimation(this._animation);
+    this._animation = animation;
+  }
+
   __onEvaluate() {
     if (this.__inputNodes && this.__inputNodes.length) {
       this.__inputNodes.forEach(val);
