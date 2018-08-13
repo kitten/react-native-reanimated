@@ -278,6 +278,7 @@ exp(node)
 
 Returns an exponent of the value of the given node.
 
+---
 ### `round`
 
 ```js
@@ -285,6 +286,24 @@ round(node)
 ```
 
 Returns node that rounds input value to the nearest integer.
+
+---
+### `floor`
+
+```js
+floor(node)
+```
+
+Returns node that rounds a number downward to its nearest integer. If the passed argument is an integer, the value will not be rounded.
+
+---
+### `ceil`
+
+```js
+ceil(node)
+```
+
+Returns node that rounds a number upward to its nearest integer. If the passed argument is an integer, the value will not be rounded.
 
 ---
 ### `lessThan`
