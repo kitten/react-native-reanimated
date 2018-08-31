@@ -1,5 +1,12 @@
 # react-native-reanimated
 
+> **Why does this fork exist?**
+>
+> This fork, and specifically its `patch/expo-29` branch, ports JS-only changes and
+> fixes to `src/` over to `1.0.0-alpha.3`, which is what Expo v29 ships with native-wise.
+> The changes were ported over since they were addressing a critical bug, which can be
+> triggered by some edge-case prop-changes.
+
 React Native's Animated library reimplemented.
 
 It provides a more comprehensive, low level abstraction for the Animated library API to be built on top of and hence allow for much greater flexibility especially when it comes to gesture based interactions.
