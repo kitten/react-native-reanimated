@@ -1,6 +1,6 @@
 {
   "name": "react-native-reanimated",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.3.patchexpo29",
   "description":
     "More powerfull alternative to Animated library for React Native",
   "scripts": {
@@ -33,7 +33,8 @@
   "dependencies": {},
   "peerDependencies": {
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.1"
+    "react-native": "^0.44.1",
+    "expo": "^29.0.0"
   },
   "jest": {
     "preset": "jest-react-native"
