@@ -1,8 +1,7 @@
 {
   "name": "react-native-reanimated",
-  "version": "1.0.0-alpha.3.patchexpo29",
-  "description":
-    "More powerfull alternative to Animated library for React Native",
+  "version": "1.0.0-alpha.3.patchexpo29.2",
+  "description": "More powerfull alternative to Animated library for React Native",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
@@ -32,9 +31,9 @@
   "homepage": "https://github.com/kmagiera/react-native-reanimated#readme",
   "dependencies": {},
   "peerDependencies": {
+    "expo": "^29.0.0",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.1",
-    "expo": "^29.0.0"
+    "react-native": "^0.44.1"
   },
   "jest": {
     "preset": "jest-react-native"
